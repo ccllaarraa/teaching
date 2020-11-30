@@ -2,16 +2,61 @@
     <script src="p5.js"></script>
     <script src="p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet">
     <meta charset="utf-8">
 
   </head>
   <body>
 
+    <section class="tab">
+      <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'propos')" >à propos</button>
+      <button class="tablinks" onclick="openTab(event, 'ref')">ressources</button>
+      <button class="tablinks" onclick="openTab(event, 'process')">process</button>
+      <button class="tablinks" onclick="openTab(event, 'micro')">micro-e-e-edition</button>
+    </section>
+
+    <div class="content">
+      <section id="propos" class="tabcontent">
+        <div class="propos-container">
+          <div class="propos-content">
+            Bienvenue sur cette page! <br> Elle sera une page référente pour notre formation ensemble à p5.js, avec des ressources pour commencer. Elle sera aussi une archive de ces cours ensemble.
+            <br><br><br>
+            La font utilisée "Gudea" a été dessinée par Agustina Mingote et provient du site <a href="https://www.design-research.be/by-womxn/" target="_blank">www.design-research.be/by-womxn/</a>.
+            <br><br>
+            Janvier 2021
+          </div>
+        </div>
+
+      </section>
+
+      <section id="ref" class="tabcontent"> 
+        <div class="ref-container">
+          <div class="ref-content">
+            
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="process" class="tabcontent">
+        <div class="process-container">
+          <div class="process-content">
+            …à venir…
+          </div>
+        </div>
+      </section>
+      <section id="micro" class="tabcontent">
+
+        <div class="micro-container">
+          <div class="micro-content">
+            …à venir…
+          </div>
+        </div>
+      </section>
+  </div>
 
 
-
-
-    
     <script src="sketch.js"></script>
   
 

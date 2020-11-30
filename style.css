@@ -1,7 +1,61 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: #BCBCBC;
+font-size: 20px;
+  font-family: 'Gudea', sans-serif;
+
 }
 canvas {
   display: block;
+}
+
+.tab {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.tab button {
+width: 100%;
+font-size: 36px;
+  font-family: 'Gudea', sans-serif;
+  background-color: inherit;
+  float: left;
+  border-top: 4px dotted #4CAF50;
+  border-left: 4px dotted sandybrown;
+  border-bottom: 4px dotted #f4e860;
+  border-right: 4px solid #94c367;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #6500ee;
+}
+.tab button:hover {
+  color: white;
+}
+.tab button.active {
+  color: white;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px; 
+  
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+a {
+  color: #6500ee;
+}
+
+.propos-container, .process-container, .micro-container, .ref-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.propos-content {
+  max-width: 600px;
+}
+
+.micro-content, .process-content {
+  color: grey;
 }

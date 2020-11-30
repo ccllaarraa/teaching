@@ -56,6 +56,6 @@ a {
   max-width: 600px;
 }
 
-.micro-content, .process-content {
+.micro-content, .process-content , .ref-content {
   color: grey;
 }

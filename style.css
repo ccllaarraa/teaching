@@ -8,6 +8,7 @@ font-size: 20px;
 }
 canvas {
   display: block;
+
 }
 
 .tab {
@@ -56,6 +57,6 @@ a {
   max-width: 600px;
 }
 
-.micro-content, .process-content , .ref-content {
+.micro-content, .process-content  {
   color: grey;
 }

@@ -1,16 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #BCBCBC;
+  background: #927777;
 font-size: 20px;
   font-family: 'Gudea', sans-serif;
+  color: white;
 
 }
 canvas {
   display: block;
 
 }
-
 .tab {
   display: flex;
   width: 100%;
@@ -31,32 +31,60 @@ font-size: 36px;
   padding: 14px 16px;
   transition: 0.3s;
   color: #6500ee;
+  position: relative;
 }
 .tab button:hover {
   color: white;
 }
 .tab button.active {
   color: white;
+  background-color: #643c2e;
 }
+.tab button.active::after {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  right: 86px;
+}
+
 .tabcontent {
   display: none;
   padding: 6px 12px; 
-  
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 a {
   color: #6500ee;
+  text-decoration: none;
+    border-bottom: 1px dotted;
 }
 
 .propos-container, .process-container, .micro-container, .ref-container{
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .propos-content {
   max-width: 600px;
 }
 
 .micro-content, .process-content  {
-  color: grey;
+  color: pink;
 }
+
+h2 {
+  font-weight: normal;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ::-webkit-scrollbar {
+  width: 30px;
+  background-color: pink;
+} */

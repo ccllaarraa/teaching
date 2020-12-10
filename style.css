@@ -3,7 +3,9 @@ html, body {
   padding: 0;
   background: #927777;
 font-size: 20px;
-  font-family: 'Gudea', sans-serif;
+  /* font-family: 'Gudea', sans-serif; */
+  font-family: 'Abhaya Libre', serif;
+
   color: white;
 
 }
@@ -19,7 +21,8 @@ canvas {
 .tab button {
 width: 100%;
 font-size: 36px;
-  font-family: 'Gudea', sans-serif;
+  /* font-family: 'Gudea', sans-serif; */
+  font-family: 'Fredoka One', cursive;
   background-color: inherit;
   float: left;
   border-top: 4px dotted #4CAF50;
@@ -63,15 +66,15 @@ a {
   text-decoration: none;
     border-bottom: 1px dotted;
 }
-
+#propos { 
+  margin: 0 200px;
+}
 .propos-container, .process-container, .micro-container, .ref-container{
   display: flex;
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-.propos-content {
-  max-width: 600px;
+  font-size: 26px;
 }
 
 .micro-content, .process-content  {
@@ -81,7 +84,8 @@ a {
 h2 {
   font-weight: normal;
   font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Fredoka One', cursive;
+  margin-top: 0;
 }
 
 /* ::-webkit-scrollbar {

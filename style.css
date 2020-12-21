@@ -1,12 +1,12 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #927777;
+  background: #bf9191;
 font-size: 20px;
   /* font-family: 'Gudea', sans-serif; */
-  font-family: 'Abhaya Libre', serif;
-
-  color: white;
+  /* font-family: 'Abhaya Libre', serif; */
+font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
 
 }
 canvas {
@@ -20,7 +20,8 @@ canvas {
 }
 .tab button {
 width: 100%;
-font-size: 36px;
+font-size: 29px;
+padding: 11px;
   /* font-family: 'Gudea', sans-serif; */
   font-family: 'Fredoka One', cursive;
   background-color: inherit;
@@ -31,17 +32,18 @@ font-size: 36px;
   border-right: 4px solid #94c367;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+ 
   transition: 0.3s;
   color: #6500ee;
   position: relative;
+  margin: 30px 20px;
 }
 .tab button:hover {
-  color: white;
+  color: yellow;
 }
 .tab button.active {
-  color: white;
-  background-color: #643c2e;
+  color: yellow;
+  background-color: #ecbcbc;
 }
 .tab button.active::after {
   content: '';
@@ -66,24 +68,33 @@ a {
   text-decoration: none;
     border-bottom: 1px dotted;
 }
-#propos { 
+ul {
+  margin-top: 5px;
+}
+a:hover {
+  background: yellow;
+}
+#propos , #ref, #process, #micro{ 
   margin: 0 200px;
 }
 .propos-container, .process-container, .micro-container, .ref-container{
   display: flex;
   justify-content: center;
+  margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 26px;
+  font-size: 20px;
+  max-width: 600px;
+  color: #fafafa;
 }
 
 .micro-content, .process-content  {
-  color: pink;
+  color: #fafafa;
 }
 
 h2 {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Fredoka One', cursive;
   margin-top: 0;
 }

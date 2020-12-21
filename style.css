@@ -6,6 +6,7 @@ font-size: 20px;
   /* font-family: 'Gudea', sans-serif; */
   /* font-family: 'Abhaya Libre', serif; */
 font-family: Arial, Helvetica, sans-serif;
+/* font-family: 'Times New Roman', Times, serif; */
   /* color: white; */
 
 }
@@ -70,6 +71,10 @@ a {
 }
 ul {
   margin-top: 5px;
+  margin-bottom: 60px;
+}
+li {
+  padding: 5px 0;
 }
 a:hover {
   background: yellow;
@@ -80,10 +85,9 @@ a:hover {
 .propos-container, .process-container, .micro-container, .ref-container{
   display: flex;
   justify-content: center;
-  margin: auto;
-  margin-top: 100px;
+  margin: 40px auto 100px auto;
   margin-bottom: 100px;
-  font-size: 20px;
+  font-size: 22px;
   max-width: 600px;
   color: #fafafa;
 }
@@ -94,12 +98,31 @@ a:hover {
 
 h2 {
   font-weight: normal;
-  font-size: 20px;
-  font-family: 'Fredoka One', cursive;
-  margin-top: 0;
+  font-size: 29px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.6px;
+   
 }
 
 /* ::-webkit-scrollbar {
   width: 30px;
   background-color: pink;
 } */
+
+.heure {
+  color: #fafafa;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 15px;
+}
+.date{
+  color: #fafafa;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+}
+.footnote {
+  font-size: 15px;
+}

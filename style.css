@@ -126,3 +126,25 @@ h2 {
 .footnote {
   font-size: 15px;
 }
+
+@media only screen and (min-width: 900px) {
+  .tab {
+    flex-direction: column;
+  }
+  .tab button {
+    margin:0;
+    font-size: 46px;
+  }
+  #propos, #ref, #process, #micro {
+    margin: 60px 20px;
+  }
+  .propos-container, .process-container, .micro-container, .ref-container {
+    margin: auto;
+    max-width: none;
+    font-size: 30px;
+
+  }
+  .heure , .date {
+    font-size: 26px;
+  }
+}

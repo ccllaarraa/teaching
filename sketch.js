@@ -33,10 +33,10 @@ function draw() {
 
 
   let time = millis();
-  rotateX(time / 10000);
+  rotateX(time / 5000);
   rotateZ(time / 5000);
   fill('#9153cf');
-  text('bonne annee 2021', 0, 0);
+  text('2021', 0, 0);
 
 
 }

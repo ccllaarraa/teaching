@@ -12,37 +12,37 @@
 // }
 
 
-var wormy;
-function preload() {
-  wormy = loadFont('WormBeeline.ttf');
-}
-var canvas;
-function setup() {
-  canvas = createCanvas(windowWidth, windowHeight, WEBGL);
-  canvas.position(0, 0);
-  canvas.style('z-index', '-1 ');
-  canvas.style('position', 'fixed ');
-  textFont(wormy);
-  textSize(width / 3);
-  textAlign(CENTER, CENTER);
+// var wormy;
+// function preload() {
+//   wormy = loadFont('WormBeeline.ttf');
+// }
+// var canvas;
+// function setup() {
+//   canvas = createCanvas(windowWidth, windowHeight, WEBGL);
+//   canvas.position(0, 0);
+//   canvas.style('z-index', '-1 ');
+//   canvas.style('position', 'fixed ');
+//   textFont(wormy);
+//   textSize(width / 3);
+//   textAlign(CENTER, CENTER);
  
-}
+// }
 
-function draw() {
-  background('#bf9191');
-
-
-  let time = millis();
-  rotateX(time / 5000);
-  rotateZ(time / 5000);
-  fill('#9153cf');
-  text('2021', 0, 0);
+// function draw() {
+//   background('#bf9191');
 
 
-}
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+//   let time = millis();
+//   rotateX(time / 5000);
+//   rotateZ(time / 5000);
+//   fill('#9153cf');
+//   text('2021', 0, 0);
+
+
+// }
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
 
 
 

@@ -6,8 +6,22 @@ font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 background: linear-gradient(-45deg, #876e91, #9b667a, #7d949c, #82ada3);
 	background-size: 400% 400%;
-	animation: gradient 60s ease infinite;
+  animation: gradient 60s ease infinite;
+
 }
+
+.flip-entry-thumb img {
+  box-shadow: none !important;
+}
+.flip-grid-view .flip-entry {
+  width: 300px;
+}
+.flip-entries {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
 
 @keyframes gradient {
 	0% {
@@ -139,17 +153,6 @@ h2 {
   font-size: 15px;
 }
 
-.flip-entry-thumb img {
-  box-shadow: none;
-}
-.flip-grid-view .flip-entry {
-  width: 300px;
-}
-.flip-entries {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 @media only screen and (max-width: 900px) {
   .tab {

@@ -139,7 +139,17 @@ h2 {
   font-size: 15px;
 }
 
-
+.flip-entry-thumb img {
+  box-shadow: none;
+}
+.flip-grid-view .flip-entry {
+  width: 300px;
+}
+.flip-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 900px) {
   .tab {

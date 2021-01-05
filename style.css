@@ -1,15 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #876e91;
+  /* background: #876e91; */
 font-size: 20px;
-  /* font-family: 'Gudea', sans-serif; */
-  /* font-family: 'Abhaya Libre', serif; */
 font-family: Arial, Helvetica, sans-serif;
-/* font-family: 'Times New Roman', Times, serif; */
-  /* color: white; */
-
+background: linear-gradient(-45deg, #876e91, #9b667a, #7d949c, #82ada3);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 canvas {
   display: block;
 

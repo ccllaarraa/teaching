@@ -21,7 +21,10 @@ background: linear-gradient(-45deg, #876e91, #9b667a, #7d949c, #82ada3);
   flex-wrap: wrap !important;
   justify-content: center !important;
 }
-
+.flip-entry-thumb img {
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 
 @keyframes gradient {
 	0% {
@@ -121,6 +124,12 @@ a:hover {
 .micro-content, .process-content  {
   color: #fafafa;
 }
+.micro-content {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 h2 {
   font-weight: normal;
@@ -153,6 +162,32 @@ h2 {
   font-size: 15px;
 }
 
+#micro {
+  height: 94vh;
+}
+
+
+#monbouton {
+  transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  border-bottom: none;
+}
+#monbouton:hover {
+  background: transparent;
+}
+
+
+.fleche {
+  padding-top: 30px;
+width: 200px;
+  transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+}
+.fleche:hover {
+  transform: rotate(360deg) scale(1.5);
+}
 
 @media only screen and (max-width: 900px) {
   .tab {

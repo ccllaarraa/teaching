@@ -1,6 +1,18 @@
+// var canvas;
+
 // function setup() {
-//   createCanvas(displayWidth, displayHeight);
+//   canvas = createCanvas(windowWidth, windowHeight);
+//   canvas.position(0, 0);
+//   canvas.style('z-index', '0 ');
+//   canvas.style('position', 'fixed ');
+  
 // }
+
+// function draw() {
+//   circle(mouseX, mouseY, 100);
+// }
+
+
 
 // function draw() {
 //   if (mouseIsPressed) {
